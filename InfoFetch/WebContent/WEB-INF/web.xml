@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>  
+  	<servlet-name>coreServlet</servlet-name>  
+    <servlet-class>org.jinxin.weixin.servlet.CoreServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+  	<servlet-name>coreServlet</servlet-name>  
+    <url-pattern>/coreServlet</url-pattern>  
+  </servlet-mapping> 
 </web-app>
